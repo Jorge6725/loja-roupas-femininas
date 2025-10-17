@@ -1,0 +1,1 @@
+// Conteúdo simulado para main.jsx
