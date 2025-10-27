@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles.css";
+import "../styles.css";
 
 export default function Home() {
   return (
@@ -7,15 +7,22 @@ export default function Home() {
       <h1>Nova Coleção Primavera 🌸</h1>
 
       <div className="produtos">
+        {/* Conjunto Feminino Fitness Verde */}
         <div className="produto">
-          <img 
-            src="/imagens/conjunto-feminino-fitness-legging-e-top-roxo-large-3.avif" 
-            alt="Conjunto feminino fitness legging e top roxo" 
-          />
-          <h3>Conjunto Fitness Roxo</h3>
+          <div className="imagens-produto">
+            <img
+              src="/imagens/conjunto-feminino-fitness-verde-1.jpg"
+              alt="Conjunto feminino fitness legging e top verde (frente)"
+            />
+            <img
+              src="/imagens/conjunto-feminino-fitness-verde-2.jpg"
+              alt="Conjunto feminino fitness legging e top verde (costas)"
+            />
+          </div>
+          <h3>Conjunto Feminino Fitness Verde</h3>
           <p>R$ 89,90</p>
         </div>
+      </div>
     </div>
   );
 }
-
